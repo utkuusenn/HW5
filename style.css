@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    color: white;
+    padding: 24px;
+    gap: 12px;
+}
+
+.content-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 14px;
+}
+
+.image img {
+    width: 50px;
+    border-radius: 100%;
+    margin: 0 0 10px 0;
+}
+
+.content h3 {
+    margin: 0 0 5px 0;
+}
+
+.color {
+    color: hsl(75, 94%, 57%);
+    margin: 0 0 8px 0;
+}
+
+.content p {
+    font-size: 12px;
+}
+
+.description {
+    color: hsl(0, 1%, 65%);
+}
+
+.content button {
+    border: none;
+    border-radius: 6px;
+    background-color:  hsl(0, 0%, 20%);
+    width: 100%;
+    padding: 12px;
+    color: white;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./static/Inter-Bold.ttf);
+}
